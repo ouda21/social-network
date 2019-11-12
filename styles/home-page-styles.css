@@ -1,0 +1,125 @@
+.posts-home{
+    width:90%;
+    border:1px silver;
+    margin-top:5px;
+    
+    border-radius:5px;
+    justify-content: center;
+    align-items: center;
+}
+.set-aside{
+    border:1px silver;
+    width:300px;
+    height:200px;
+    float:right;
+    margin-left:400px;
+}
+.post_home{
+    border:rgb(64, 154, 196);
+    width:200px;
+    height:300px;
+}
+.img_id{
+    width:100%;
+    margin:25px auto;
+    margin-left: 0px;
+    border:1px solid silver;
+    float:left;
+    border-radius:5px;
+}
+
+.img_id img{
+    width:100%;;
+    height:250px;
+}
+
+.img_id p{
+    text-align:justify;
+    font-size:15px;
+    margin-top:-15px;
+}
+
+.img_id .footer{
+    flex:1;
+}
+
+.footer{
+    float:left;
+    margin-left:0px;
+}
+
+.post-border{
+    border:1px solid silver;
+}
+
+.buttons-footer{
+    margin:auto;
+    margin-top:15px;
+    margin-bottom:20px;
+}
+
+.buttons-footer a i{
+    margin-top:10px;
+    margin-bottom:20px;
+}
+
+.buttons-footer a:hover{
+    text-decoration:none;
+}
+
+.commentor form input{
+    display:none;
+    width:90%;
+    margin-left:20px;
+    margin-bottom:15px;
+    border-radius:0 10px 0 10px;
+    height:40px;
+}
+
+.show-date{
+    float:right;
+    color: rgb(121, 121, 182);
+    font-style: italic;
+    margin-right:10px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.requests{
+    border:1px silver;
+    width:100%;
+    height:auto;
+}
+
+.img_id_request{
+    width:100%;
+    margin:25px auto;
+    margin-left: 0px;
+    border:1px solid silver;
+    float:left;
+    border-radius:5px;
+}
+.img_id_request img{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+}
+#mycomment{
+    border:none;
+    background:transparent;
+}
+.commentor-name p{
+    border:1px silver;
+    text-align:justify;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+.commentor-name{
+    width:100%;
+    height:auto;
+    margin-top:15px;
+}
+.time{
+    float:right;
+    font-size:10px;
+}

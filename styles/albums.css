@@ -1,0 +1,86 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.albums{
+    width:150px;
+    height:200px;
+    border:1px silver;
+    font-size:30px;
+    margin:auto;
+    margin-left:20px;
+    margin-bottom:10px;
+}
+.albums p a{
+    text-decoration:none;
+}
+.new-album{
+    font-size:17px;
+}
+.new-album a{
+    text-decoration:none;
+}
+.new-album p{
+    margin-top:20px;
+}
+#add_image{
+    background-color:#2C6E98;
+    width:200px;
+    height:40px;
+    border:none;
+    border-radius:5px;
+    color:white;
+    font-weight:bold;
+    font-size:17px;
+}
+.modal-confirm{
+    display: none; 
+   position: fixed; 
+   z-index: 0; 
+   margin-top:20px;
+   left: 0;
+   top: 0;
+   width: 100%; 
+   height: 100%; 
+   overflow: auto; 
+   background-color: rgb(3, 2, 2); 
+   background-color: rgba(29, 28, 28, 0.815);
+ 
+ }
+ .modal-content {
+     background-color: #fefefe;
+     margin: 15% auto; /* 15% from the top and centered */
+     padding: 20px;
+     border: none;
+     border-radius:5px;
+     width: 300px; /* Could be more or less, depending on screen size */
+     
+   }
+   .button{
+     background-color:#2C6E98;
+     color:white;
+     border:none;
+     border-radius:5px;
+     font-weight:bold;
+     margin-left:20px;
+     flex:1;
+     display:inline-flex;
+     position:relative;
+     float:right;
+     height:40px;
+     margin-right:110px;
+     margin-bottom:20px;
+     cursor:pointer;
+   }
+   .close{
+       float:right;
+       cursor:pointer;
+   }
+   .button1{
+       background-color:#2C6E98;
+       color:white;
+       width:80px;
+       border:none;
+       border-radius:5px;
+       height:30px;
+   }

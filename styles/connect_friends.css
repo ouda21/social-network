@@ -1,0 +1,38 @@
+.img_id {
+    width: 250px;
+    height: 250px;
+    margin: 35px 0;
+    margin-left: 40px;
+    border: transparent;
+    float: left;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_id:hover {
+    border: 2px solid rgba(12, 12, 46, 0.753);
+}
+
+.img_id img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    float: right;
+    margin-right: 80px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_id p {
+    text-align: center;
+}
+
+.border {
+    position: absolute;
+    margin-left: 200px;
+    border: 1px transparent;
+    margin-top: 150px;
+    width: 1100px;
+}
